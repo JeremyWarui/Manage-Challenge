@@ -1,0 +1,92 @@
+body {
+  font-family: 'Be Vietnam', sans-serif;
+  font-size: 16px;
+}
+
+h1, h2, h3 {
+  font-family:'Be Vietnam', sans-serif;
+  color: hsl(228, 39%, 23%);
+}
+
+p {
+  padding:2px 0;
+  color: hsl(227, 12%, 61%);
+}
+
+.container-fluid {
+  padding: 4% 12%;
+}
+.navbar {
+  padding: 0 0 8rem;
+}
+
+.navbar-brand {
+  height:10%;
+  width:15%;
+}
+
+.nav-item {
+  padding:0 5px;
+  font-size: 0.8rem;
+}
+
+.title-heading {
+  font-weight: 700;
+  font-size: 3rem;
+  padding: 30px 0;
+  padding-right: 30px;
+}
+.title-text {
+  padding-right: 25%;
+}
+
+.title-image {
+  width:480px;
+  height:434.469px;
+}
+.btn {
+  background-color:hsl(12, 88%, 59%);
+  font-size:12px;
+  color:#fff;
+}
+
+/* FEATURES SECTION */
+.features-heading {
+  font-weight: 700;
+}
+.features-text {
+  font-weight:700;
+  font-size: 16px;
+}
+
+/* TESTIMONIAL SECTION */
+#testimonials {
+  text-align: center;
+}
+
+#ctn {
+  background-color:hsl(12, 88%, 59%);
+}
+.ctn-text {
+  color:#fff;
+}
+.ctn--column {
+  text-align: right;
+}
+
+#footer {
+background-color: hsl(233, 12%, 13%);
+font-size:12px;
+}
+
+.icons {
+  padding : 70px 8px 0;
+}
+.footer-link {
+  text-decoration: none;
+  color: hsl(227, 12%, 61%);
+}
+
+.table {
+  font-weight:700;
+}
