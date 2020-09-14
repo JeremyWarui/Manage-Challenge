@@ -4,29 +4,35 @@ body {
 }
 
 h1, h2, h3 {
-  font-family:'Be Vietnam', sans-serif;
+  font-family: 'Be Vietnam', sans-serif;
   color: hsl(228, 39%, 23%);
 }
 
 p {
-  padding:2px 0;
+  padding: 2px 0;
   color: hsl(227, 12%, 61%);
 }
 
 .container-fluid {
-  padding: 4% 12%;
+  padding: 7% 15%;
 }
+
+/* TITLE SECTION */
+#title {
+  background: linear-gradient(90deg, #fff, #ffbb91);
+}
+
 .navbar {
   padding: 0 0 8rem;
 }
 
 .navbar-brand {
-  height:10%;
-  width:15%;
+  height: 10%;
+  width: 15%;
 }
 
 .nav-item {
-  padding:0 5px;
+  padding: 0 5px;
   font-size: 0.8rem;
 }
 
@@ -36,57 +42,153 @@ p {
   padding: 30px 0;
   padding-right: 30px;
 }
+
 .title-text {
   padding-right: 25%;
 }
 
 .title-image {
-  width:480px;
-  height:434.469px;
+  width: 475px;
+  height: 434.469px;
 }
+
 .btn {
-  background-color:hsl(12, 88%, 59%);
-  font-size:12px;
-  color:#fff;
+  background-color: hsl(12, 88%, 59%);
+  font-size: 12px;
+  color: #fff;
 }
 
 /* FEATURES SECTION */
 .features-heading {
   font-weight: 700;
 }
+
 .features-text {
-  font-weight:700;
+  font-weight: 700;
   font-size: 16px;
+  padding: 2%;
 }
 
 /* TESTIMONIAL SECTION */
 #testimonials {
   text-align: center;
+  background: linear-gradient(90deg, #ffbb91, #fff);
 }
 
+/* CALL TO ACTION SECTION */
 #ctn {
-  background-color:hsl(12, 88%, 59%);
+  background-color: hsl(12, 88%, 59%);
 }
+
 .ctn-text {
-  color:#fff;
+  color: #fff;
 }
+
 .ctn--column {
   text-align: right;
 }
 
+/* FOOTER SECTION */
 #footer {
-background-color: hsl(233, 12%, 13%);
-font-size:12px;
+  background-color: hsl(233, 12%, 13%);
+  font-size: 12px;
 }
 
 .icons {
-  padding : 70px 8px 0;
+  padding: 70px 8px 0;
 }
+
 .footer-link {
   text-decoration: none;
   color: hsl(227, 12%, 61%);
 }
 
 .table {
-  font-weight:700;
+  font-weight: 700;
+}
+
+.attribution {
+  background-color: hsl(233, 12%, 13%);
+  color: #fff;
+  text-align: center;
+}
+
+/* Responsiveness on Mobile */
+@media (max-width:900px) {
+  body {
+    text-align: center;
+  }
+
+  .container-fluid {
+    padding: 5% 7%;
+  }
+
+  .title-heading {
+    font-weight: 700;
+    font-size: 2rem;
+    padding-right: 0;
+    padding: 0;
+  }
+
+  .title-text {
+    padding-right: 0;
+    line-height: 2;
+  }
+
+  .title-image {
+    width: 100%;
+    height: 100%;
+    padding-top: 5%;
+  }
+
+  #features {
+    line-height: 2;
+  }
+
+  .features-heading {
+    padding-bottom: 5%;
+  }
+
+  .features-intro {
+    padding: 3% 3%;
+  }
+
+  .features-text {
+    text-align: left;
+    background-color: hsl(13, 100%, 96%);
+  }
+
+  .features-text1 {
+    text-align: left;
+  }
+#ctn {
+  padding: 10% 10%;
+}
+  .ctn--column {
+    text-align: center;
+    padding-top:10px;
+  }
+  .btn-ctn {
+    background-color: #fff;
+    color:hsl(12, 88%, 59%);
+  }
+
+#footer {
+  padding: 5% 15%;
+}
+  .footer-link {
+    text-decoration: none;
+    text-align: left;
+    color: hsl(227, 12%, 61%);
+  }
+
+  .table {
+    font-weight: 700;
+    text-align: left;
+    align-content: center;
+
+  }
+  .icons {
+    padding: 20px 5px 20px;
+  }
 }
